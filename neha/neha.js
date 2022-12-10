@@ -327,3 +327,53 @@
 // var birthyear = prompt("What's your birth year? ")
 
 
+// Task 13
+// 1. a persons age is 20 years old you need to see if he is elidgible for marriage
+// 2. there are two brothers sohan and ahhan wiith their teacher neha now miss neha tells both of them that if one of the brother fails she's gonna give zero to both of them. Write a condition to check this. sohan scored 20 ahhan scored 3.
+// 3. there is a river which has a water level of 10 meter if the water stays below 20 meter the city is safe if it goes to 15 meter the city is in medium danger and if it dosent go 17 meters everyone is safe.
+// 4. Neha mam has changed a bit and she told both ahan and sohan that if one of them passes the test she will she won't complain to the parents. 
+
+
+var age = 20;
+
+
+if(age >= 20 ){
+    alert("you are eligible for marriage");
+}else{
+    alert("you are not eligible for marriage")
+}
+
+var sohan = 20;
+var ahaan = 3;
+
+
+if(ahaan < 10 || sohan < 10 ){
+    console.log("both will receive zeroes");
+}else{
+    console.log("you have both passed")
+}
+
+var water = 10;
+
+if(water < 20 ){
+    console.log("city is safe");
+}else{
+    console.log("city is in danger")
+}
+
+if(ahaan > 10 || sohan > 10 ){
+    console.log("both will pass");
+}else{
+    console.log("both get zeroes")
+}
+
+var grades = prompt("enter your grade")
+
+if(grades == "a" ){
+    console.log("excellent");
+}else if(grades = "c"){
+    console.log("average");
+}
+else {
+    console.log("kicked out");
+}
